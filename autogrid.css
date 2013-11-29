@@ -1,0 +1,74 @@
+[class^="autogrid"] {
+  text-align: justify;
+  font-size: 1px;
+  letter-spacing: -1px /* whitespace fi xpart 1 */;
+  margin-bottom: 6rem;
+}
+
+[class*="autogrid"]:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+[class*="autogrid"] > * {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  font-size: 16em;
+  font-size: 1.6rem;
+  letter-spacing: normal /* whitespace fix part 2 */;
+  *display: inline *zoom: 1 /* ie6 / ie7 hack */;
+}
+
+.autogrid2 > * {
+  width: 49%;
+}
+
+.autogrid3 > * {
+  width: 32%;
+}
+
+.autogrid4 > * {
+  width: 23.6%;
+}
+
+.autogrid5 > * {
+  width: 19%;
+}
+
+.autogrid6 > * {
+  width: 15%;
+}
+
+.autogrid8 > * {
+  width: 10.8%;
+}
+
+.autogrid10 > * {
+  width: 9%;
+}
+
+.autogrid12 > * {
+  width: 6.4%;
+}
+
+@media (max-width: 1024px) {
+  .autogrid5 > *,
+  .autogrid6 > *,
+  .autogrid8 > *,
+  .autogrid10 > *,
+  .autogrid12 > * {
+    width: 32%;
+  }
+}
+
+@media (max-width: 768px) {
+  .autogrid5 > *,
+  .autogrid6 > *,
+  .autogrid8 > *,
+  .autogrid10 > *,
+  .autogrid12 > * {
+    width: 49%;
+  }
+}
