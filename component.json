@@ -1,0 +1,13 @@
+{
+  "name": "maple-autogrid",
+  "repo": "leafs/maple-autogrid",
+  "description": "CSS autogrid",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "maple-autogrid.css"
+  ]
+}
