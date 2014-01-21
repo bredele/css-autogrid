@@ -1,5 +1,4 @@
-
-# maple-autogrid
+# css-autogrid
 
   CSS autogrid
 
@@ -7,7 +6,7 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install leafs/maple-autogrid
+    $ component install bredele/css-autogrid
 
 ## API
 
